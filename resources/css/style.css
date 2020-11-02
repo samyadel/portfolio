@@ -451,6 +451,12 @@ nav .container {
     padding: 40px 0 0;
   }
 
+  header,
+  header i,
+  header a {
+    color: #000;
+  }
+
   header h2 {
     font-size: 3.2rem;
   }
@@ -521,5 +527,17 @@ nav .container {
 @media only screen and (max-width: 740px) {
   nav {
     padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 495px) {
+  nav {
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 398px) {
+  nav {
+    padding-right: 10px;
   }
 }
